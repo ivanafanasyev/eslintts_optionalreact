@@ -1,0 +1,16 @@
+{
+  "extends": ["airbnb-typescript", "prettier", "plugin:sonarjs/recommended"],
+  "plugins": ["prettier", "sonarjs"],
+  "rules": {
+    "prettier/prettier": ["error"],
+    "global-require": 0,
+    "no-use-before-define": 0,
+    "no-unused-vars": "warn"
+  },
+  "env": {
+    "browser": true
+  },
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  }
+}
